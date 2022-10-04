@@ -21,9 +21,9 @@ def maximizar_troca_de_figurinhas(figurinhas_da_maria, figurinhas_do_joao):
 
 
     if (len(figurinhas_da_maria) - int(figMaria)) < (len(figurinhas_do_joao) - int(figJoao)):
-        return print(f"Máximo de figurinhas para troca {len(figurinhas_da_maria) - int(figMaria)}")
+        return len(figurinhas_da_maria) - int(figMaria)
     else:
-        return print(f"Máximo de figurinhas para troca {len(figurinhas_do_joao) - int(figJoao)}")
+        return len(figurinhas_do_joao) - int(figJoao)
         
 
 if __name__ == '__main__':
